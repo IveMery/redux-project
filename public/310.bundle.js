@@ -1,0 +1,2 @@
+(self.webpackChunkredux_project=self.webpackChunkredux_project||[]).push([[310],{3310:function(e,n,t){"use strict";t.r(n);var r=t(7294),a=t(3727);n.default=function(){return r.createElement("div",null,r.createElement("h2",null,"Pagina no encontrada no aparece"),"no se que onda",r.createElement(a.rU,{to:"/"},r.createElement("button",null,"Ir al nicio")))}}}]);
+//# sourceMappingURL=310.bundle.js.map
