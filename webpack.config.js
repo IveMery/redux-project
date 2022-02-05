@@ -6,6 +6,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, "public"),
     filename: "bundle.js",
+    publicPath: "/",
   },
   module: {
     rules: [
@@ -54,9 +55,10 @@ module.exports = {
     contentBase: path.join(__dirname, "public"),
   },*/
   devServer: {
+    historyApiFallback: true,
     proxy: {
       "/api": {
-       target: "http://127.0.0.1:8000",
+        target: "http://127.0.0.1:8000",
         changeOrigin: true,
         secure: false,
         pathRewrite: {

@@ -9,7 +9,7 @@ const reducer = (state, action) => {
       return {
         ...state,
         favoriteCharacters: state.favoriteCharacters.filter(
-          (items) => items.data.id !== action.payload,
+          (items) => items.data.id !== action.payload
         ),
       };
     case "SET_SECTION":
@@ -17,7 +17,12 @@ const reducer = (state, action) => {
         ...state,
         sectionActive: action.payload,
       };
-    default: 
+    case "SET_SEARCH":
+      return {
+        ...state,
+        search: action.payload,
+      };
+    default:
       return state;
   }
 };

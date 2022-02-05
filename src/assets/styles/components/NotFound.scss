@@ -1,0 +1,17 @@
+@import "../App.scss";
+
+.not-found-container {
+    @include colCenCen;
+    .not-found-title {
+        font-size: 20px;
+    }
+    .not-found-btn {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border: 2px solid $primary-color;
+        background-color: inherit;
+        color: $primary-color;
+        cursor: pointer;
+    }
+}

@@ -6,7 +6,6 @@ const useGetCharacters = () => {
   const [characters, setCharacters] = useLocalStorage("characters", "");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
-console.log("me estoy renderizando desde getCharacters");
   async function getCharacters() {
     try {
       const response = await axios.get(

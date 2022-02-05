@@ -1,0 +1,17 @@
+.search-form{
+    text-align: center;
+     
+   .search-input{
+        width: 50%;
+        height: 40px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 0 10px;
+        font-size: 14px;
+        outline: none;
+        transition: all 0.3s ease-in-out;
+        &:focus{
+            border-color: #00bcd4;
+        }
+    }
+}

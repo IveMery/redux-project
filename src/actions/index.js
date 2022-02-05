@@ -12,3 +12,9 @@ export const setSection = (payload) => ({
     type: "SET_SECTION",
     payload,
 });
+
+export const setSearch = (payload) => ({
+    type: "SET_SEARCH",
+    payload,
+});
+

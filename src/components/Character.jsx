@@ -11,7 +11,6 @@ import useModal from "../custom-hooks/useModal";
 const Character = (props) => {
   const [favorite, setFavorite] = useState(false);
   const { modal, handleCloseModal, handleOpenModal } = useModal();
-
   const { data, favoriteCharacters } = props;
   const { id, image, name, status, species, gender } = data;
 
